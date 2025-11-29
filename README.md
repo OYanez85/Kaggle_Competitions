@@ -39,20 +39,22 @@ Each folder contains its own notebooks, scripts, and results, depending on the n
    cd Kaggle_Competitions
 
 2. Enter the project folder you want to explore:
+   ```bash
+   cd Supervised_Learning/Some_Competition
 
-cd Supervised_Learning/Some_Competition
 
 3. (Optional) Create and activate a virtual environment:
+   ```bash
    python -m venv venv
    source venv/bin/activate     # Linux/macOS
    # venv\Scripts\activate      # Windows
    pip install -r requirements.txt
 
-4. Open the Jupyter notebooks or run the scripts for EDA, training, or predictions.
+5. Open the Jupyter notebooks or run the scripts for EDA, training, or predictions.
 
-5. Reproduce experiments or reuse the pipelines for your own tasks.
+6. Reproduce experiments or reuse the pipelines for your own tasks.
 
-6. 📚 Best Practices Included
+7. 📚 Best Practices Included
 
     - Clear and well-documented notebooks with explanations and step-by-step modelling.
 
@@ -62,7 +64,7 @@ cd Supervised_Learning/Some_Competition
 
     - Code intended to be educational, practical, and easy to reuse.
 
-7. 🎯 Who Is This Repository For?
+8. 🎯 Who Is This Repository For?
 
 Data scientists and ML engineers looking for real competition examples.
 Students and professionals wanting end-to-end ML pipelines.
